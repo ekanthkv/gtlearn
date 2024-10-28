@@ -19,7 +19,7 @@ jobs:
           java-version: 11
           
       - name: Define pom
-        run: mvn -f /home/ekanth/Documents/my_project/ec2/git-learn/gtlearn/pom.xml
+        run: mvn -f gtlearn/pom.xml
         
       - name: Build with Maven
         run: mvn clean package
